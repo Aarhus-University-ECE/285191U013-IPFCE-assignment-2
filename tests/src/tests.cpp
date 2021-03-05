@@ -3,37 +3,35 @@
 
 extern "C"
 {
-#include "max.h"
-#include "swap.h"
-#include "max_sum.h"
+#include "fib.h"
+#include "lcrng.h"
+#include "sqrt.h"
+//#include "cubes.h" nothing to check, excercise needs a change
+// same for 2.5 
+// Continue with 2.6
 }
 
 // See Catch2's documentation: https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#scaling-up
 
-TEST_CASE("max")
+TEST_CASE("fib")
 {
-    REQUIRE(max(0, 0) == 0);
-    REQUIRE(max(1, 2) == 2);
-    REQUIRE(max(0, -1) == -1);
-    REQUIRE(max(-2, -1) == -1);
+    REQUIRE(fib(7) == {0,1,1,2,3,5,8});
 }
 
-TEST_CASE("swap")
+TEST_CASE("lcrng")
 {
     int a = 1;
     int b = 2;
-    swap(&a, &b);
-    REQUIRE(a == 2);
-    REQUIRE(b == 1);
-    swap(&a, &b);
-    REQUIRE(a == 1);
-    REQUIRE(b == 2);
+    lcrng(&a, &m, &c, &x0);
+    // not sure how to test 
+
 }
 
-TEST_CASE("max_sum")
+TEST_CASE("sqrt")
 {
-    REQUIRE(max_sum(1, 2, 3) == 6);
-    REQUIRE(max_sum(1, 2, -3) == 3);
-    REQUIRE(max_sum(0, 0, 0) == 0);
-    REQUIRE(max_sum(-10, 20, 30) == 50);
+    REQUIRE(sqrt(17) == 4);
+    REQUIRE(sqrt(0) == 0);
+    // Is this a valid case? 
+    //REQUIRE(sqrt(2) == 1.4142); 
+
 }
