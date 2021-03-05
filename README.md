@@ -16,7 +16,7 @@ Note: the **Challenge** exercises are optional.
    integer n as input from the user, and it then calculates and prints each Fibonacci
    number from the first Fibonacci number to the nth. For example, a typical execution
    where the user inputs n = 7 could be:
-   7
+   7  
    0 1 1 2 3 5 8
    
 2. Implement a Linear Congruent Random Number Generator computing:
