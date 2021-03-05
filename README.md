@@ -82,7 +82,7 @@ Note: the **Challenge** exercises are optional.
    **Type 2:** each such box costs c2 øre and can hold exactly n2 marbles  
    I want each box to be filled to its capacity, and also to minimise the total cost of
    buying them. Help me find the best way to distribute my marbles among the boxes.  
-   **Input** The input begins with a line containing the integer n (1 <= n <= 2;147;395;600).The
+   **Input** The input begins with a line containing the integer n (1 <= n <= 2,147,395,600).The
       second line contains c1 and n1, and the third line contains c2 and n2. Here, c1,
       c2, n1, and n2 are all positive integers having values smaller than 46;341.   
    **Output** Print a line containing the minimum cost solution (two nonnegative integers m1 and m2, 
