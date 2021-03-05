@@ -7,7 +7,7 @@ python autograde.py
 ## Week 2: Development and Derivation of (simple) programs
 Submit your solutions via the assignment dropbox on blackboard, Week 2. Please make
 sure to submit your solutions **by next Monday.** If an exercise requires you to write C
-code, then create a new C file (i.e. do not combine exercises into a single C file).
+code, then create a new C file (i.e. do not combine exercises into a single C file).  
 Note: the **Challenge** exercises are optional.
 
 ## Exercise
