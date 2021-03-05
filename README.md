@@ -78,10 +78,10 @@ Note: the **Challenge** exercises are optional.
    
 6. **Challenge:** (PC-7.6.7) I collect marbles (colourful small glass balls) and want to
    buy boxes to store them. The boxes come in two types,  
-   **Type 1:** each such box costs c1 re and can hold exactly n1 marbles  
-   **Type 2:** each such box costs c2 re and can hold exactly n2 marbles  
-   I want each box to be lled to its capacity, and also to minimise the total cost of
-   buying them. Help me nd the best way to distribute my marbles among the boxes.  
+   **Type 1:** each such box costs c1 øre and can hold exactly n1 marbles  
+   **Type 2:** each such box costs c2 øre and can hold exactly n2 marbles  
+   I want each box to be filled to its capacity, and also to minimise the total cost of
+   buying them. Help me find the best way to distribute my marbles among the boxes.  
    **Input** The input begins with a line containing the integer n (1 <= n <= 2;147;395;600).The
       second line contains c1 and n1, and the third line contains c2 and n2. Here, c1,
       c2, n1, and n2 are all positive integers having values smaller than 46;341.   
