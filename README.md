@@ -1,4 +1,4 @@
-# IPFCE-assignment-2-Development and Derivation of (simple) programs
+# IPFCE-Week-2-Development and Derivation of (simple) programs
 
 ```bash
 python autograde.py
