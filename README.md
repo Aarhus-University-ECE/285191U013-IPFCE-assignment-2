@@ -1,10 +1,10 @@
-# IPFCE-assignment-2-
+# IPFCE-assignment-2-Development and Derivation of (simple) programs
 
 ```bash
 python autograde.py
 ```
 
-## Week 2: Development and Derivation of (simple) programs
+## Excercise
 Submit your solutions via the assignment dropbox on blackboard, Week 2. Please make
 sure to submit your solutions **by next Monday.** If an exercise requires you to write C
 code, then create a new C file (i.e. do not combine exercises into a single C file).  
