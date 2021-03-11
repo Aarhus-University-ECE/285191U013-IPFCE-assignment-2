@@ -1,5 +1,4 @@
-# IPFCE-assignment-2-Development and Derivation of (simple) pro-
-grams
+# IPFCE-assignment-2-Development and Derivation of (simple) programs
 
 ```bash
 python autograde.py
