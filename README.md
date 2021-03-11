@@ -57,6 +57,7 @@ Note: the **Challenge** exercises are optional.
    ```
    
 5. **Challenge:** What does the following program compute?
+   ```c
    int x = 0;  
    int y = 0;  
    int h = b - a / 2;  
@@ -73,7 +74,8 @@ Note: the **Challenge** exercises are optional.
          y++;  
       }  
          x++;  
-   }  
+   } 
+   ```
    
    Improve the output of the program to support your hypothesis.  
    
