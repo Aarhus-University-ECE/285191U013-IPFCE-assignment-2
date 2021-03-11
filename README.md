@@ -41,6 +41,7 @@ Note: the **Challenge** exercises are optional.
    Try printing out the variable values for each iteration (you could try to work out
    these values by hand with pen and paper, and then by writing and modifying the
    program by adding printf statements).  
+   ```c
    int y = 0;  
    int i = 0;  
    1  
@@ -53,6 +54,7 @@ Note: the **Challenge** exercises are optional.
       j += k;  
       k += 6;  
    }  
+   ```
    
 5. **Challenge:** What does the following program compute?
    int x = 0;  
