@@ -1,39 +1,14 @@
-cmake_minimum_required(VERSION 3.10)
-project(template)
-include(CTest)
+cmake_minimum_required(VERSION 3.16)
+project(assignment-2 LANGUAGES C CXX)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS OFF)
 
-# static checks
-# if(MSVC)
-#   add_compile_options(/W4 /WX)
-# else()
-#   add_compile_options(-Wall -Wextra -pedantic -Werror)
-# endif()
+add_compile_options(-Wall -Wextra)
 
-# set(CMAKE_CXX_CLANG_TIDY
-#   clang-tidy;
-#   -checks=*;
-# )
+add_executable(exercise-3 src/exercise-3.c)
+add_executable(exercise-4 src/exercise-4.c)
+add_executable(exercise-5 src/exercise-5.c)
 
-# set(CMAKE_CXX_CPPCHECK
-#   cppcheck;
-#   --error-exitcode=1;
-# )
-
-
-# define library called queue that can imported into other targets via
-# 'target_link_libraries'
-add_library(mymath src/max.c src/swap.c src/max_sum.c)
-target_include_directories(mymath PUBLIC include)
-
-# define executable named main for experimenting and debugging code
-add_executable(main src/main.cpp)
-target_link_libraries(main mymath)
-
-# tests are added by declaring a target, in this case 'tests'. additional tests
-# can be added by expanding the test cases in 'src/tests.cpp' or an additional
-# target via 'add_executable'
-enable_testing()
-add_subdirectory(tests)
-
+add_executable(playground src/playground.c)
