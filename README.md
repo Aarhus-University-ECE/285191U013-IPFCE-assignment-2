@@ -65,16 +65,14 @@ where the user inputs n = 7 could be:
 See `src/exercise-3.c` for where to write your solution.
 
 ### Exercise 4
-Implement a Linear Congruent Random Number Generator computing:
+Implement a *Linear Congruent Random Number Generator* computing:
 
 $$ x_{i+1} = (a * x_i + c) \mod m $$
 
 where $m > 0, 0 < a < m, 0 < c < m$.
 
-The first value, called the seed, is $x_0$. Your
+The first value, called the seed, is $x_0$. Your program should take four integer inputs from the user for $a,m,c,x_0$. Given these input values from the user, your program should compute all values $x_0, x_1, ..., x_{m-1}$ and print them to the console as a table in the form:
 
-`xi+1 = (a * xi + c) % m`
-where `m > 0, 0 < a < m, 0 < c < m`. The first value, called the seed, is `x0`. Your program should take four integer inputs from the user for `a; m; c; x0`. Given these input values from the user, your program should compute all values $x_0, x_1, ...,  x_{m-1}$ and print them to the console as a table in the form:  
 ```
 n0 x0
 n1 x1
