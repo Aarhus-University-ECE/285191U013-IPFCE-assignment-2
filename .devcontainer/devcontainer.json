@@ -18,7 +18,9 @@
 		"GitHub.codespaces",
 		"GitHub.vscode-pull-request-github",
 		"jeff-hykin.better-cpp-syntax",
-		"ms-vscode.cpptools-extension-pack"
+		"ms-vscode.cpptools-extension-pack",
+		"yzhang.markdown-all-in-one",
+		"tomoki1207.pdf"
 	]
     }
   }
