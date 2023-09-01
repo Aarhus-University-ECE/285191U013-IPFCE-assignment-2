@@ -12,7 +12,46 @@ cmake -S . -B build
 cmake --build build --target all
 ```
 
+To build and run a specific exercise, use the `exercise-<number>` target, e.g.:
+
+```bash
+make exercise-3
+```
+
 ## Exercises
+
+### Exercise 2
+What is the program below calculating (i.e. what is the relation between the input and
+what is written in line 15)? You should not write in detail an explanation of what the
+different lines do, but what you would write as a comment in the top of the program
+describing the overall function of the program.
+
+```c
+#include <stdio.h>
+
+int main() {
+
+	int result;
+	int j;
+	int N;
+
+	scanf("%d", &N);
+	result = N;
+	j = 0;
+
+	while (j < N) {
+		result = result + 1;
+		j = j + 1;
+	}
+
+	printf("The result is %d.\n", result);
+
+	return 0;
+}
+```
+
+Write a program that makes the same calculation but without a loop. Do so in `src/exercise-2.c`.
+
 ### Exercise 3
 Write a program to compute the Fibonacci numbers. Your program should take an
 integer n as input from the user, and it then calculates and prints each Fibonacci
@@ -59,3 +98,7 @@ An example execution where the user inputs $n = 17$ could be:
 ```
    
 See `src/exercise-5.c` for where to write your solution.
+
+### Exercise 7
+
+See the `pdf` for the exercise. A copy of the program is in `src/exercise-7.c`. Add your own comments to this file when asked to do so in the exercise.

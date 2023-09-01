@@ -7,8 +7,10 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS OFF)
 
 add_compile_options(-Wall -Wextra)
 
+add_executable(exercise-2 src/exercise-2.c)
 add_executable(exercise-3 src/exercise-3.c)
 add_executable(exercise-4 src/exercise-4.c)
 add_executable(exercise-5 src/exercise-5.c)
+add_executable(exercise-7 src/exercise-7.c)
 
 add_executable(playground src/playground.c)
